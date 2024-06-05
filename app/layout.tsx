@@ -19,6 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta
+          name="google-site-verification"
+          content="h-j4a0GLqouvmQPrchY56jld-efN3oAQd55LISLw9GM"
+        />
         <link rel="icon" href="/ric-logo.png" sizes="any" />
       </head>
       <body className={inter.className}>
