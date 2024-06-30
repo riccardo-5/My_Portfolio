@@ -16,11 +16,11 @@ const Hero = () => {
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
         />
+        <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="blue" />
         <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
+          className="left-80 top-28 h-[80vh] w-[50vw]"
+          fill="#00ffcc"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       {/**
@@ -68,7 +68,7 @@ const Hero = () => {
             />
           </a>
         </div>
-        <Meteors/>
+        <Meteors />
       </div>
     </div>
   );

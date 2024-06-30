@@ -40,6 +40,8 @@ const config = {
         blue: {
           "100": "#E4ECFF",
         },
+        customHover: "#a1ffec",
+        green: "#00FFCC",
         purple: "#CBACF9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
